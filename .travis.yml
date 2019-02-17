@@ -17,5 +17,5 @@ cache:
       - $HOME/.sonar/cache
 
 script:
-   - git fetch --unshallow
+   - git fetch --unshallow --quiet
    - mvn -f simple-sonarqube-example/pom.xml clean org.jacoco:jacoco-maven-plugin:prepare-agent verify sonar:sonar
