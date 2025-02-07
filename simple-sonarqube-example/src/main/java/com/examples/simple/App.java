@@ -5,6 +5,9 @@ package com.examples.simple;
  *
  */
 public class App {
+	/**
+	 * @return the message
+	 */
 	public String getMessage() {
 		return "Hello World!";
 	}
